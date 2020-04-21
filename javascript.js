@@ -215,15 +215,15 @@ loadImages(sources, function(images){
 // membuat text
 context.font = 'bold 15pt Kristen ITC';
 context.fillStyle = 'black';
-context.fillText('Buanglah Sampah', 165,360);
-context.fillText('pada tempatnya', 170,385);
+context.fillText('Buanglah Sampah', 165,370);
+context.fillText('pada tempatnya', 170,395);
 
 context.font = 'bold 15pt Kristen ITC';
 context.fillStyle = 'black';
-context.fillText('Buanglah Sampah', 520,360);
-context.fillText('pada tempatnya', 525,385);
+context.fillText('Buanglah Sampah', 520,370);
+context.fillText('pada tempatnya', 525,395);
 
 context.font = 'bold 15pt Kristen ITC';
 context.fillStyle = 'black';
-context.fillText('Buanglah Sampah', 870,360);
-context.fillText('pada tempatnya', 875,385);
+context.fillText('Buanglah Sampah', 870,370);
+context.fillText('pada tempatnya', 875,395);
