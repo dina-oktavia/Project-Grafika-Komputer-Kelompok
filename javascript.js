@@ -23,7 +23,7 @@ lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
 // batas
-var cornerRadius = 15;
+var cornerRadius = 10;
 context.beginPath();
 context.moveTo(200,300);
 context.arcTo(410,300,410,320,cornerRadius);
@@ -73,7 +73,7 @@ lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
 // batas
-var cornerRadius = 15;
+var cornerRadius = 10;
 context.beginPath();
 context.moveTo(700,300);
 context.arcTo(760,300,760,320,cornerRadius);
@@ -123,7 +123,7 @@ lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
 // batas
-var cornerRadius = 15;
+var cornerRadius = 10;
 context.beginPath();
 context.moveTo(900,300);
 context.arcTo(1110,300,1110,320,cornerRadius);
@@ -160,7 +160,7 @@ context.quadraticCurveTo(1235,160,1200,200);
 context.moveTo(1200,115);
 context.quadraticCurveTo(1250,160,1200,210);
 context.strokeStyle = 'rgb(17, 84, 207)';
-context.lineWidth = 4;
+context.lineWidth = 6;
 context.stroke();
 // pegangan tutup 1
 context.beginPath();
@@ -168,8 +168,8 @@ context.moveTo(200,220);
 context.quadraticCurveTo(250,180,300,220);
 context.moveTo(185,220);
 context.quadraticCurveTo(250,160,315,220);
-context.strokeStyle = 'rgb(17, 84, 207)';
-context.lineWidth = 4;
+context.fillStyle = 'rgb(17, 84, 207)';
+context.lineWidth = 6;
 context.stroke();
 // pegangan tutup 2
 context.beginPath();
@@ -178,14 +178,14 @@ context.quadraticCurveTo(682,136,700,188);
 context.moveTo(605,150);
 context.quadraticCurveTo(685,120,715,194);
 context.strokeStyle = 'rgb(17, 84, 207)';
-context.lineWidth = 4;
+context.lineWidth = 6;
 context.stroke();
 
 // draw image
 var sources = {
-    logo1: 'https://i.ibb.co/W3KJ7QK/logo-re.jpg',
-    logo2:'https://i.ibb.co/W3KJ7QK/logo-re.jpg',
-    logo3: 'https://i.ibb.co/W3KJ7QK/logo-re.jpg'
+    logo1: 'https://i.ibb.co/0BjHjMY/sampah.jpg',
+    logo2:'https://i.ibb.co/0BjHjMY/sampah.jpg',
+    logo3: 'https://i.ibb.co/0BjHjMY/sampah.jpg'
 };
 function loadImages (sources, callback){
     let images = {};
@@ -218,12 +218,12 @@ context.fillStyle = 'black';
 context.fillText('Buanglah Sampah', 165,360);
 context.fillText('pada tempatnya', 170,385);
 
-context.font = 'bold 15pt Ink Free';
-context.fillStyle = 'rgb(238, 238, 238)';
+context.font = 'bold 15pt Kristen ITC';
+context.fillStyle = 'black';
 context.fillText('Buanglah Sampah', 520,360);
 context.fillText('pada tempatnya', 525,385);
 
-context.font = 'bold 15pt Comic Sans MS';
+context.font = 'bold 15pt Kristen ITC';
 context.fillStyle = 'black';
 context.fillText('Buanglah Sampah', 870,360);
 context.fillText('pada tempatnya', 875,385);
