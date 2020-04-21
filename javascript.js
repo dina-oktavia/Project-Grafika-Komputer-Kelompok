@@ -33,6 +33,8 @@ context.arcTo(90,300,410,300,cornerRadius);
 context.closePath();
 context.fillStyle = 'rgb(142, 149, 255)';
 context.fill();
+context.strokeStyle = 'rgb(142, 149, 255)';
+context.lineWidth = 2;
 context.stroke();
 // tutup 1
 context.beginPath();
@@ -50,15 +52,7 @@ lgrad.addColorStop(0.75,'rgb(55, 118, 235)');
 lgrad.addColorStop(1,'rgb(55, 118, 235)');
 context.fillStyle = lgrad;
 context.fill();
-// pegangan tutup 1
-context.beginPath();
-context.moveTo(200,220);
-context.quadraticCurveTo(250,180,300,220);
-context.moveTo(185,220);
-context.quadraticCurveTo(250,160,315,220);
-context.strokeStyle = 'rgb(17, 84, 207)';
-context.lineWidth = 3;
-context.stroke();
+
 
 // gambar 2
 context.beginPath();
@@ -89,6 +83,8 @@ context.arcTo(440,300,760,300,cornerRadius);
 context.closePath();
 context.fillStyle = 'rgb(142, 149, 255)';
 context.fill();
+context.strokeStyle = 'rgb(142, 149, 255)';
+context.lineWidth = 2;
 context.stroke();
 // tutup 2
 context.beginPath();
@@ -106,13 +102,6 @@ lgrad.addColorStop(0.75,'rgb(6, 22, 255)');
 lgrad.addColorStop(1,'rgb(6, 93, 255)');
 context.fillStyle = lgrad;
 context.fill();
-// pegangan tutup 2
-context.beginPath();
-context.moveTo(620,155);
-context.quadraticCurveTo(682,135,700,188);
-context.moveTo(605,150);
-context.quadraticCurveTo(685,120,715,193);
-context.stroke();
 
 
 // gambar 3
@@ -144,6 +133,8 @@ context.arcTo(790,300,1110,300,cornerRadius);
 context.closePath();
 context.fillStyle = 'rgb(142, 149, 255)';
 context.fill();
+context.strokeStyle = 'rgb(142, 149, 255)';
+context.lineWidth = 2;
 context.stroke();
 // tutup 3
 context.beginPath();
@@ -168,6 +159,26 @@ context.moveTo(1200,125);
 context.quadraticCurveTo(1235,160,1200,200);
 context.moveTo(1200,115);
 context.quadraticCurveTo(1250,160,1200,210);
+context.strokeStyle = 'rgb(17, 84, 207)';
+context.lineWidth = 4;
+context.stroke();
+// pegangan tutup 1
+context.beginPath();
+context.moveTo(200,220);
+context.quadraticCurveTo(250,180,300,220);
+context.moveTo(185,220);
+context.quadraticCurveTo(250,160,315,220);
+context.strokeStyle = 'rgb(17, 84, 207)';
+context.lineWidth = 4;
+context.stroke();
+// pegangan tutup 2
+context.beginPath();
+context.moveTo(620,155);
+context.quadraticCurveTo(682,136,700,188);
+context.moveTo(605,150);
+context.quadraticCurveTo(685,120,715,194);
+context.strokeStyle = 'rgb(17, 84, 207)';
+context.lineWidth = 4;
 context.stroke();
 
 // draw image
