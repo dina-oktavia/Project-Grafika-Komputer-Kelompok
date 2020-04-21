@@ -22,6 +22,18 @@ lgrad.addColorStop(0.75,'rgb(0, 153, 255)');
 lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
+// batas
+var cornerRadius = 15;
+context.beginPath();
+context.moveTo(200,300);
+context.arcTo(410,300,410,320,cornerRadius);
+context.arcTo(410,320,90,320,cornerRadius);
+context.arcTo(90,320,90,300,cornerRadius);
+context.arcTo(90,300,410,300,cornerRadius);
+context.closePath();
+context.fillStyle = 'rgb(142, 149, 255)';
+context.fill();
+context.stroke();
 // tutup 1
 context.beginPath();
 context.moveTo(100,300);
@@ -66,6 +78,18 @@ lgrad.addColorStop(0.75,'rgb(0, 153, 255)');
 lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
+// batas
+var cornerRadius = 15;
+context.beginPath();
+context.moveTo(700,300);
+context.arcTo(760,300,760,320,cornerRadius);
+context.arcTo(760,320,440,320,cornerRadius);
+context.arcTo(440,320,440,300,cornerRadius);
+context.arcTo(440,300,760,300,cornerRadius);
+context.closePath();
+context.fillStyle = 'rgb(142, 149, 255)';
+context.fill();
+context.stroke();
 // tutup 2
 context.beginPath();
 context.moveTo(470,195);
@@ -109,6 +133,18 @@ lgrad.addColorStop(0.75,'rgb(0, 153, 255)');
 lgrad.addColorStop(1,'rgb(0, 60, 255)');
 context.fillStyle = lgrad;
 context.fill();
+// batas
+var cornerRadius = 15;
+context.beginPath();
+context.moveTo(900,300);
+context.arcTo(1110,300,1110,320,cornerRadius);
+context.arcTo(1110,320,790,320,cornerRadius);
+context.arcTo(790,320,790,300,cornerRadius);
+context.arcTo(790,300,1110,300,cornerRadius);
+context.closePath();
+context.fillStyle = 'rgb(142, 149, 255)';
+context.fill();
+context.stroke();
 // tutup 3
 context.beginPath();
 context.moveTo(1100,300);
